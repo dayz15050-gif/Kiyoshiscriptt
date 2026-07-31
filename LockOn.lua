@@ -246,12 +246,3 @@ RunService.RenderStepped:Connect(function()
 		)
 	end
 end)
-local targetLabel = Instance.new("TextLabel")
-targetLabel.Size = UDim2.fromOffset(200, 20)
-targetLabel.Position = UDim2.fromOffset(10, 130)
-targetLabel.BackgroundTransparency = 1
-targetLabel.Text = "Target : None"
-targetLabel.TextColor3 = Color3.fromRGB(255,255,0)
-targetLabel.TextSize = 14
-targetLabel.Font = Enum.Font.GothamBold
-targetLabel.Parent = box
